@@ -9,7 +9,7 @@
 - [ ] OPG C++ 튜터링
 - [ ] OPG 자료구조 튜터링
 - [ ] java study hw하기
-- [ ] .gitignore 폴더
+- [x] .gitignore file
 
 ## daily
 
@@ -20,6 +20,10 @@
 - [x] 자바 공부
 
 ### 1월 15일
-- [ ] .gitignore 폴더
+- [x] .gitignore file
 - [ ] 자바 공부
 - [ ] C++ 공부
+
+### 1월 16일
+
+### 1월 17일
