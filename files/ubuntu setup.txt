@@ -1,0 +1,92 @@
+#############docker 설치################
+
+sudo apt-get update && sudo apt-get install \					#package 설치
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    software-properties-common
+
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -	#docker의 공식키 및 저장소 추가
+
+sudo add-apt-repository \
+   "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   $(lsb_release -cs) \
+   stable"
+
+
+sudo apt-get update && sudo apt-cache search docker-ce				#docker package가 검색되는지 확인
+										 제대로 설치되었다면 docker-ce - Docker: the open-source application container engine 출력
+
+
+
+sudo apt-get update && sudo apt-get install docker-ce				#docker-ce 설치
+
+
+
+참고 : https://hiseon.me/linux/ubuntu/install-docker/
+
+
+
+############nvidia driver 설치(nvidia 그래픽카드를 사용중이지 않다면 생략)##############
+
+ubuntu-drivers devices								#추천 드라이버 확인 nvidia driver중에 recommended 붙어있는 버전 확인
+
+sudo add-apt-repository ppa:graphics-drivers/ppa				#저장소 추가
+sudo apt update
+
+
+apt-cache search nvidia | grep nvidia-driver-418				#설치가능한 driver 목록 출력
+										 !!!nvidia-driver-뒤에 숫자 부분에 위에서 확인한 recommended 붙은 숫자로 변경
+
+sudo apt-get install nvidia-driver-418						#설치 가능 드라이버 이름 입력
+
+sudo reboot									#reboot
+
+
+
+참고 : https://codechacha.com/ko/install-nvidia-driver-ubuntu/
+
+
+
+############nvidia docker 설치(nvidia 그래픽카드를 사용중이지 않다면 생략)##############
+
+distribution=$(. /etc/os-release;echo $ID$VERSION_ID)
+curl -s -L https://nvidia.github.io/nvidia-docker/gpgkey | sudo apt-key add -
+curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.list | sudo tee /etc/apt/sources.list.d/nvidia-docker.list
+
+sudo apt-get update && sudo apt-get install -y nvidia-container-toolkit
+sudo systemctl restart docker
+
+
+sudo docker run --gpus all nvidia/cuda nvidia-smi				#nvidia docker 제대로 설치되었다면 그래픽카드 메모리 등 정보가 뜸
+
+
+
+창고 : https://github.com/NVIDIA/nvidia-docker
+
+
+
+############ml-tooling 설치##############
+
+option 1 : 그래픽카드가 없을 경우
+
+docker run -d \
+    -p 8080:8080 \
+    --name "ml-workspace" -v "${PWD}:/workspace" \
+    --env AUTHENTICATE_VIA_JUPYTER="mytoken" \
+    --shm-size 512m \
+    --restart always \
+    mltooling/ml-workspace:latest
+
+
+
+option 2 : 그래픽카드가 있을 경우
+
+docker run -d \
+    -p 8080:8080 \
+    --gpus all
+    --name "ml-workspace" -v "${PWD}:/workspace" \
+    --env AUTHENTICATE_VIA_JUPYTER="mytoken" \
+    --shm-size 512m \
+    --restart always \
+    mltooling/ml-workspace-gpu:latest
