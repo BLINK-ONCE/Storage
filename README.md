@@ -25,5 +25,7 @@
 - [x] C++ 공부
 
 ### 1월 16일
+- [x] java study hw code convention 하기
 
 ### 1월 17일
+- [ ] java study 마무리
