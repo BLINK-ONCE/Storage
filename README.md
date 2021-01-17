@@ -8,7 +8,7 @@
 - [x] OPG 자바 튜터링
 - [x] OPG C++ 튜터링
 - [ ] OPG 자료구조 튜터링
-- [ ] java study hw하기
+- [x] java study hw하기
 - [x] .gitignore file
 
 ## daily
@@ -28,4 +28,4 @@
 - [x] java study hw code convention 하기
 
 ### 1월 17일
-- [ ] java study 마무리
+- [x] java study 마무리
