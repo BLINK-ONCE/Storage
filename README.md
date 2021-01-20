@@ -9,7 +9,7 @@
 - [ ] Book machine learning
 - [ ] STUDY ACT java study
 - [ ] STUDY ACT slaves of coding
-- [ ] OPG tutoring java
+- [x] OPG tutoring java
 - [ ] OPG tutoring C++
 - [ ] OPG tutoring memory structure
 
@@ -18,7 +18,7 @@
 ### Jan 20th
 
 - [x] presentaion
-- [ ] OPG tutoring java
+- [x] OPG tutoring java
 - [ ] studying JAVA
 
 
