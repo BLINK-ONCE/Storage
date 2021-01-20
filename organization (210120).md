@@ -82,3 +82,4 @@ i.i.d 가정으로 생겨난 것에서는 데이터 생성 프로세스가 테�
 # reference 
 - [underfitting, overfitting 1](https://nittaku.tistory.com/289)
 - [underfitting, overfitting 2](https://velog.io/@tmddn0311/%EB%94%A5%EB%9F%AC%EB%8B%9D-%ED%8A%9C%ED%86%A0%EB%A6%AC%EC%96%BC-%EC%98%A4%EB%B2%84%ED%94%BC%ED%8C%85-%EB%B0%A9%EC%A7%80)
+- [curse of dimensionality](https://thesciencelife.com/archives/1001)
