@@ -3,14 +3,14 @@
 
 ## weekly 
 
-- [ ] 연구실 재료비 사용 목록 만들기(컴퓨존, 오피스디포)
+- [x] 연구실 재료비 사용 목록 만들기(컴퓨존, 오피스디포)
 - [ ] Book deep learning 5.2
 - [ ] Book deep learning 5.3
 - [ ] Book machine learning
 - [ ] STUDY ACT java study
 - [ ] STUDY ACT slaves of coding
 - [x] OPG tutoring java
-- [ ] OPG tutoring C++
+- [x] OPG tutoring C++
 - [ ] OPG tutoring memory structure
 
 ## daily
@@ -22,26 +22,29 @@
 - [ ] studying JAVA
 
 ### Jan 21st
-
 #### 연구실 재료비 목록
-- [ ] 연구실 재료비 사용 목록만들기
+- [x] 연구실 재료비 사용 목록만들기
 - [ ] 스피커
-- [ ] 마우스
+- [x] 마우스
 - [ ] 키보드
-- [ ] 독서대
-- [ ] 책꽂이
-- [ ] 북엔드
-- [ ] A4용지
-- [ ] 방안노트
-- [ ] 파일철, 파일케이스
-- [ ] USB
-- [ ] RAM
-- [ ] 마우스 패드
+- [x] 독서대
+- [x] 책꽂이
+- [x] 북엔드
+- [x] A4용지
+- [x] 방안노트
+- [x] 파일철, 파일케이스
+- [x] USB
+- [x] RAM
+- [x] 마우스 패드
 - [ ] 칠판지우개
 
 
 #### 할 일
-- [ ] 연구실 재료비 사용 목록 제출하기
+- [x] 연구실 재료비 사용 목록 제출하기
+
+
+### Jan 23rd
+- [ ] Studying Java(java study)
 
 
 
