@@ -44,8 +44,11 @@
 
 
 ### Jan 23rd
-- [ ] Studying Java(java study)
+- [x] Studying Java(java study)
 
+
+### Jan 24th
+- [ ] Studying Java(java study)
 
 
 ---
