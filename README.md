@@ -15,11 +15,14 @@
 
 ## daily
 
-### Jan 20th
 
-- [x] presentaion
-- [x] OPG tutoring java
-- [ ] studying JAVA
+### Jan 24th
+- [ ] Studying Java(java study)
+
+
+### Jan 23rd
+- [x] Studying Java(java study)
+
 
 ### Jan 21st
 #### 연구실 재료비 목록
@@ -43,12 +46,12 @@
 - [x] 연구실 재료비 사용 목록 제출하기
 
 
-### Jan 23rd
-- [x] Studying Java(java study)
+### Jan 20th
 
+- [x] presentaion
+- [x] OPG tutoring java
+- [ ] studying JAVA
 
-### Jan 24th
-- [ ] Studying Java(java study)
 
 
 ---
