@@ -7,7 +7,7 @@
 - [ ] Book deep learning 5.2
 - [ ] Book deep learning 5.3
 - [ ] Book machine learning
-- [ ] STUDY ACT java study
+- [x] STUDY ACT java study
 - [ ] STUDY ACT slaves of coding
 - [x] OPG tutoring java
 - [x] OPG tutoring C++
@@ -17,7 +17,7 @@
 
 
 ### Jan 24th
-- [ ] Studying Java(java study)
+- [x] Studying Java(java study)
 
 
 ### Jan 23rd
