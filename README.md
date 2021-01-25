@@ -16,15 +16,19 @@
 ## daily
 
 
-### Jan 26th
+### Jan 27th Wed
+- [ ] presentation
+- [ ] Lab. personal meeting
+
+### Jan 26th Tue
 - [ ] weekly meeting
 - [ ] prepare presentation
 
-### Jan 25th
+### Jan 25th Mon
 - [x] translate paper
-- [ ] read translated text
+- [x] read translated text
 
-### Jan 24th
+### Jan 24th Sun
 - [x] Studying Java(java study)
 
 
