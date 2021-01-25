@@ -16,6 +16,14 @@
 ## daily
 
 
+### Jan 26th
+- [ ] weekly meeting
+- [ ] prepare presentation
+
+### Jan 25th
+- [x] translate paper
+- [ ] read translated text
+
 ### Jan 24th
 - [x] Studying Java(java study)
 
