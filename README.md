@@ -21,7 +21,7 @@
 - [ ] Lab. personal meeting
 
 ### Jan 26th Tue
-- [ ] weekly meeting
+- [x] weekly meeting
 - [ ] prepare presentation
 
 ### Jan 25th Mon
