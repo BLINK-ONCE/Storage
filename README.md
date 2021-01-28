@@ -1,7 +1,16 @@
 # To-do
 
+## weekly
+- [ ] Book deep learning 5.4 
+- [ ] Book machine learning
+- [ ] MATLAB code
 
 
+## daily
+
+### Jan 28th
+- [ ] study MATLAB syntax
+- [ ] study python syntax
 
 
 
