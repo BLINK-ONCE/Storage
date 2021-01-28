@@ -8,9 +8,9 @@
 
 ## daily
 
-### Jan 28th
+### Jan 28th Thu
 - [ ] study MATLAB syntax
-- [ ] study python syntax
+- [x] study python syntax
 
 
 
