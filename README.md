@@ -1,12 +1,17 @@
 # To-do
 
 
+
+
+
+
+
 ## weekly 
 
 - [x] 연구실 재료비 사용 목록 만들기(컴퓨존, 오피스디포)
-- [ ] Book deep learning 5.2
-- [ ] Book deep learning 5.3
-- [ ] Book machine learning
+- [x] Book deep learning 5.2
+- [x] Book deep learning 5.3
+- [x] Book machine learning
 - [x] STUDY ACT java study
 - [ ] STUDY ACT slaves of coding
 - [x] OPG tutoring java
@@ -17,12 +22,12 @@
 
 
 ### Jan 27th Wed
-- [ ] presentation
-- [ ] Lab. personal meeting
+- [x] presentation
+- [x] Lab. personal meeting
 
 ### Jan 26th Tue
 - [x] weekly meeting
-- [ ] prepare presentation
+- [x] prepare presentation
 
 ### Jan 25th Mon
 - [x] translate paper
