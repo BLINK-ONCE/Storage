@@ -8,10 +8,13 @@
 
 ## daily
 
+### Jan 31th
+- [ ] study java string calculator
+
 ### Jan 29th Fri
-- [ ] study python syntax
-- [ ] study activity java
-- [ ] study activity git, github
+- [x] study python syntax
+- [x] study activity java
+- [x] study activity git, github
 
 ### Jan 28th Thu
 - [ ] study MATLAB syntax
