@@ -8,8 +8,15 @@
 
 ## daily
 
-### Jan 31th
-- [ ] study java string calculator
+### Feb 2nd Tue
+- [ ] weekly meeting
+- [ ] prepare presentation
+
+### Feb 1st Mon
+- [x] Java study act
+
+### Jan 31th Sun
+- [x] study java string calculator
 
 ### Jan 29th Fri
 - [x] study python syntax
