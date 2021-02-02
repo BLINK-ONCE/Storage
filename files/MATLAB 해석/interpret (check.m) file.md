@@ -118,4 +118,42 @@ eta2 = 0.01;
 - Tunable parameters : 조정가능한 파라미터
 - OpNeurons : 아웃풋 뉴런의 개수
 - durationS = 290 : 각각 이미지마다 40미리초의 시뮬레이션을 가지기 때문에 250 + 40 = 290미리초
-- ㅇ
+- STDP(Spike timing dependent plasticity) : 스파이크 타이밍 종속 소성은 뇌의 뉴런 사이의 연결 강도를 조정하는 생물학적 과정이다. 프로세스는 특정 뉴런의 출력 및 입력 동작 전위의 상대적인 타이밍에 따라 연결 강도를 조정한다.
+- EPSP(Excitatory postsynaptic potential) : 이온통로가 열리면서 연접 후부로 양이온이 흘러들어가는 것으로 인해 연접후부의 막전위가 일시적으로 탈분극되는 것이다.
+- tau_EPSP = 50 : 미리초 단위에서의 EPSP/STDP의 반응속도
+- Inh = 500 : Inhibitory strength(억제력). 즉 EPSP들로 인해 활동전위를 일으킨 후에 휴지기 동안 활동전위가 발생하지 않도록 억제한다.
+- K_leak = 0.018 : ?
+- Kconst = 300 : ?
+- Ki = .05e05 : scaling factor for probability. 즉, 확률에 따라 요인(factor)을 조정한다.
+- Kf = .05e09 : ?
+- del_K = 0.018 : ?
+- tau_STDP1 = 4.5 : ?
+- tau_STDP2 = 5 : ?
+- tau_Inh = 50 : ?
+- eta1 = 0.03 : Learning rate
+- eat2 = 0.01 : ?
+
+
+```
+sum_weights = zeros(1,OpNeurons);
+volt = zeros(OpNeurons);
+K = Ki*ones(1,OpNeurons);
+weights_e = 0.13*rand(InNeurons,OpNeurons);  % synaptic weight matrix
+weights_com = zeros(280,280);
+```
+
+- zeros() : 모두 0으로 구성된 배열 생성
+- sum_weights = zeros(1,OpNeurons) : 행렬 sum_weights. 1 * OpNeurons 행렬.
+- volt = zeros(OpNeurons) : 행렬 volt. 0으로 구성된 OpNeurons * OpNeurons 행렬.
+- K = Ki*ones(1,OpNeurons) : 행렬 K. 1*OpNeurons 행렬.
+- weights_e = 0.13*rand(InNeurons,OpNeurons) : 시냅틱 가중치 행렬. 난수로 구성된 InNeurons*OpNeurons 행렬 * 0.13.
+- weights_com = zeros(280,280) : ?. 0으로 구성된 280*280 행렬.
+
+
+
+
+
+# Reference
+- [rand 함수](https://kr.mathworks.com/help/matlab/ref/rand.html)
+- [size 함수](https://kr.mathworks.com/support/search.html?q=size&page=1)
+- [ones 함수](https://kr.mathworks.com/help/matlab/ref/ones.html)
