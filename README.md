@@ -9,7 +9,7 @@
 ## daily
 
 ### Feb 2nd Tue
-- [ ] weekly meeting
+- [x] weekly meeting
 - [ ] prepare presentation
 
 ### Feb 1st Mon
