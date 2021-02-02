@@ -1,7 +1,11 @@
 # check.m file interpret
 
+
+
 매트랩은 명령어 다음 줄에 바로 값을 출력한다.
 매트랩에서 세미콜론(;)을 입력한다면 명령어 다음에 값을 출력하지 않는다. 이 이외의 의미는 **없다**.
+
+
 
 
 ```
@@ -20,6 +24,16 @@ close all;
 ```
 
 데이터를 비움
+
+
+
+
+
+
+
+
+
+
 
 ## pre-processing. 0, 1, 2, 3의 숫자로 이루어진 인풋이미지를 마련한다. 
 
@@ -46,7 +60,7 @@ y=[];           % label for each image
 - diag() func : 대각 행렬을 생성하거나 행렬의 대각선 요소 가져오기 (영단어 diagonal)
 - 대각 행렬(diagonal matrix) : 주대각선 성분이 아닌 모든 성분이 0인 정사각 행렬.
 - ones() func : 모두 1로 구성된 배열 생성
-- temp=diag(ones(1,num_digits)) : 1부터 num_digits까지의 크기를 가지는 모두 1로 구성된 대각 행렬을 temk에 저장
+- temp=diag(ones(1,num_digits)) : 행렬 temp. 1*num_digits 행렬. 1로 이루어진 대각행렬. 
 - y=[] : 각 이미지마다 레이블링
 
 
@@ -72,6 +86,14 @@ end;
 - 인풋 이미지들이 아마 레이블링 돼 있는 이미지일 건데
 - 이 이미지들을 스파이킹 정보로 바꾸어주는 것인듯 
 
+
+
+
+
+
+
+
+
 ## 스파이크 형태로 저장된 인풋 이미지들
 
 ```
@@ -88,7 +110,7 @@ num_PF=0;
 - Fixed parameters : 고정된 파라미터들이다. 각각, (timeStepS, epochs, InNeurons, num_PF)
 - timeStepS = 1 : 타임스텝의 시간은 1미리초이다.
 - epochs : 트레이닝 에포크의 수
-- InNeurons = size(x,2) : 인풋 뉴런의 개수
+- InNeurons = size(x,2) : 인풋 뉴런의 개수. 차원 2의 길이를 반환한다. x의 두 번째 차원 길이만 쿼리(정보를 요청)한다.
 - size() func : 배열 크기.
 
 ```
