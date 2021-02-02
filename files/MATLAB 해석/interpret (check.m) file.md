@@ -46,7 +46,8 @@ y=[];           % label for each image
 - temp=diag(ones(1,num_digits)) : 1부터 num_digits까지의 크기를 가지는 모두 1로 구성된 대각 행렬을 temk에 저장
 
 
-`for i=0:num_train-1
+```
+for i=0:num_train-1
     x(1+num_digits*i,:)=Zero(:,1+i);
     x(2+num_digits*i,:)=One(:,1+i);
     x(3+num_digits*i,:)=Two(:,1+i);
@@ -59,5 +60,5 @@ y=[];           % label for each image
     x(10+num_digits*i,:)=Nine(:,1+i);    
     
     y=[y;temp];
-end;``
+end;
 ```
