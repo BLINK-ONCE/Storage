@@ -31,14 +31,11 @@ load MNIST_Greyscale_0_9.mat; % load MNIST dataset
 num_digits=10;   % no of digits used for recognition
 ```
 
-각 자리마다 250개의 트레이닝 인스턴스에서 얻은 입력값을 각각  0, 1, 2, 3으로 하여 pre-processing.
-
-num_train=100 : 각각의 이미지마다 트레이닝 인스턴스의 개수
-
-load 명령어는 폴더 안에 있는 파일을 불러오는 명령어이다.
+- 각 자리마다 250개의 트레이닝 인스턴스에서 얻은 입력값을 각각  0, 1, 2, 3으로 하여 pre-processing.
+- num_train=100 : 각각의 이미지마다 트레이닝 인스턴스의 개수
+- load 명령어는 폴더 안에 있는 파일을 불러오는 명령어이다.
 각각 "load P_vs_I_20kT_PW.mat", "MNIST_Greyscale_0_9.mat" 파일을 로드했다. (MNIST 데이터 셋)
-
-num_digits=10 : digit은 숫자를 뜻한다. 이 변수는 인식에 사용될 숫자의 개수를 나타낸다. (0~9이므로 10개)
+- num_digits=10 : digit은 숫자를 뜻한다. 이 변수는 인식에 사용될 숫자의 개수를 나타낸다. (0~9이므로 10개)
 
 
 ```
