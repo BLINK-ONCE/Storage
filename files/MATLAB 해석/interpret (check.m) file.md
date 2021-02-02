@@ -3,10 +3,14 @@
 매트랩은 명령어 다음 줄에 바로 값을 출력한다.
 매트랩에서 세미콜론(;)을 입력한다면 명령어 다음에 값을 출력하지 않는다. 이 이외의 의미는 **없다**.
 
+
 ```
 %% SPIKING NEURAL NETWORK FOR HANDWRITING RECOGNITION (MNIST)---UNSUPERVISED LEARNING APPROACH
 ```
 필기 인식을 위한 스파이킹 뉴럴 네트워크. unsupervised learning 적용
+
+
+## cleat data
 
 ```
 %% clear data
@@ -16,6 +20,8 @@ close all;
 ```
 
 데이터를 비움
+
+## pre-processing. 0, 1, 2, 3의 숫자로 이루어진 인풋이미지를 마련한다. 
 
 ```
 %% pre-processing of input images for digits 0,1,2 and 3 with 250 training instances for each digit
@@ -44,6 +50,7 @@ y=[];           % label for each image
 - 대각 행렬(diagonal matrix) : 주대각선 성분이 아닌 모든 성분이 0인 정사각 행렬.
 - ones() func : 모두 1로 구성된 배열 생성
 - temp=diag(ones(1,num_digits)) : 1부터 num_digits까지의 크기를 가지는 모두 1로 구성된 대각 행렬을 temk에 저장
+- y=[] : 각 이미지마다 레이블링
 
 
 ```
@@ -62,3 +69,56 @@ for i=0:num_train-1
     y=[y;temp];
 end;
 ```
+
+- for i=0:num_train-1 : 트레이닝 수만큼 for statement
+- 잘 모르겠지만 아마 프리 프로세싱 하는 것 같음
+- 인풋 이미지들이 아마 레이블링 돼 있는 이미지일 건데
+- 이 이미지들을 스파이킹 정보로 바꾸어주는 것인듯 
+
+## 스파이크 형태로 저장된 인풋 이미지들
+
+```
+%% images applied as input spike trains and synaptic weights modified by STDP
+
+% Fixed parameters
+timeStepS = 1;                          % 1 msec
+epochs = num_train*num_digits;          % No of training epochs
+InNeurons = size(x,2);                  % No of input neurons
+num_PF=0;
+```
+
+- images applied as input spike trains and synaptic weights modified by STDP : 인풋 스파이크 훈련 데이터(레이블)가 적용된 이미지. STDP를 통해서 시냅틱 가중치가 적용된 이미지. 
+- Fixed parameters : 고정된 파라미터들이다. 각각, (timeStepS, epochs, InNeurons, num_PF)
+- timeStepS = 1 : 타임스텝의 시간은 1미리초이다.
+- epochs : 트레이닝 에포크의 수
+- InNeurons = size(x,2) : 인풋 뉴런의 개수
+- size() func : 배열 크기.
+
+```
+% Tunable parameters
+
+OpNeurons = 10;                         % No of output neurons
+durationS = 290;                         % 40 msec simulation for each image
+tau_EPSP = 50;                               % EPSP/STDP response time in msec
+
+
+Inh = 500;                                % Inhibitory strength
+K_leak = 0.018;
+Kconst = 300;
+
+
+Ki = .05e05;                                 % scaling factor for probability
+Kf = .05e09;
+del_K = 0.018;
+tau_STDP1 = 4.5;
+tau_STDP2 = 5;
+tau_Inh = 50;
+eta1 = 0.03;                              % Learning rate
+eta2 = 0.01;
+
+```
+
+- Tunable parameters : 조정가능한 파라미터
+- OpNeurons : 아웃풋 뉴런의 개수
+- durationS = 290 : 각각 이미지마다 40미리초의 시뮬레이션을 가지기 때문에 250 + 40 = 290미리초
+- ㅇ
