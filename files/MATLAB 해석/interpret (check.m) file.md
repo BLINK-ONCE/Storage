@@ -1,5 +1,8 @@
 # check.m file interpret
 
+매트랩은 명령어 다음 줄에 바로 값을 출력한다.
+매트랩에서 세미콜론(;)을 입력한다면 명령어 다음에 값을 출력하지 않는다. 이 이외의 의미는 **없다**.
+
 ```
 %% SPIKING NEURAL NETWORK FOR HANDWRITING RECOGNITION (MNIST)---UNSUPERVISED LEARNING APPROACH
 ```
