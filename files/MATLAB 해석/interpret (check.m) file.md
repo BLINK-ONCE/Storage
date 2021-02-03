@@ -173,9 +173,105 @@ weights_com = zeros(280,280);
 
 
 
+```
+% Run the simulation for 1000 images (each digit 0-3 presented with 250
+% different instances for 10 times)
+% Update and show image
+for num=0: OpNeurons-1
+    weights_com(1:28,num*28+1:(num+1)*28)=reshape(weights_e(:,num+1),[28,28]);
+    colormap(jet);
+    imagesc(weights_com)
+    drawnow
+    pause(0.04);
+end
+```
+
+- Run the simulation for 1000 images (each digit 0-3 presented with 250 different instances for 10 times : 1000개의 이미지를 시뮬레이션 돌린다. 각 숫자 0-3 은 10회 동안 250개의 다른 인스턴스와 함께 표시된다.
+- Update and show image : 
+- weights_com(1:28,num*28+1:(num+1)*28)=reshape(weights_e(:,num+1),[28,28]) : 가중치 비교
+- colormap(jet) : 현재 Figure의 컬러맵을 jet으로 지정된 컬러맵으로 설정합니다.
+- imagesc(weights_com) : 배열 weights_com의 데이터를 컬러맵의 전체 색 범위를 사용하는 이미지로 표시합니다. weights_com의 각 요소는 이미지의 한 픽셀에 대한 색을 지정합니다. 결과 이미지는 mxn 그리드의 픽셀입니다. 여기서 m은 weights_com의 행 개수이고 n은 열 개수입니다. 요소의 행과 열 인덱스에 따라 해당하는 픽셀의 중심이 결정됩니다.
+- drawnow : Figure를 업데이트하고 보류 중인 콜백을 모두 처리합니다. (그래픽스 객체를 수정한 후, 업데이트 내용을 화면에 즉시 표시하려면 이 명령을 사용한다.)
+- pause(0.04) : 0.04초 동안 실행을 일시 중지한 후 재개한다.
+
+
+```
+for tt = 1:1
+    tt  
+for i = 1:epochs %replace by epochs
+    fprintf('\n  epoch is : %d \n',i);
+    
+    % initial conditions
+    spikesPerS=255/4*x(i,:);
+    spikes = zeros(InNeurons,durationS/timeStepS);
+    EPSP = zeros(InNeurons,durationS/timeStepS+tau_EPSP);
+    u = zeros(OpNeurons,durationS/timeStepS+tau_EPSP);
+    prob = zeros(OpNeurons,durationS/timeStepS+tau_EPSP);
+%     z = zeros(OpNeurons,durationS/timeStepS+tau_EPSP);
+    I = zeros(1,OpNeurons);    
+    t_post = zeros(1,OpNeurons);
+    t_pre = zeros(1,InNeurons);
+```
+
+- 여기서부터 프로그램 시작.
+- for i = 1:epochs : epochs 만큼 실행
+- fprintf('\n  epoch is : %d \n',i) : 텍스트 파일에 데이터 쓰기. i
+- initial conditions : 초기 값
+- spikesPerS=255/4*x(i,:) : 255/4*(행렬x의i번째행) 값을 대입
+- x(i,:) : 행렬x의 i번째 행
+- spikes = zeros(InNeurons,durationS/timeStepS) : 요소가 0인 InNeurons*(durationS/timeStepS) 행렬을 대입.
+- EPSP = zeros(InNeurons,durationS/timeStepS+tau_EPSP) : 요소가 0인 InNeurons*((durationS/timeStepS)+tau_EPSP) 행렬을 대입
+- u = zeros(OpNeurons,durationS/timeStepS+tau_EPSP) : 요소가 0인 InNeurons*((durationS/timeStepS)+tau_EPSP) 행렬을 대입
+- prob = zeros(OpNeurons,durationS/timeStepS+tau_EPSP) : 요소가ㅏ 0인 prob = zeros(OpNeurons,durationS/timeStepS+tau_EPSP)
+-  I = zeros(1,OpNeurons) : 요소가 0인 1*OpNeurons 행렬을 대입
+- t_post = zeros(1,OpNeurons) : 요소가 0인 1*OpNeurons 행렬을 대입
+- t_pre = zeros(1,InNeurons) : 요소가 0인 1*InNeurons 행렬을 대입
+
+
+```
+% generate spikes for a particular input according to Poisson process
+    for train = 1:InNeurons
+        vt = rand(1,durationS/timeStepS);
+        if x(i,train)>0
+           spikes(train, :) = ((spikesPerS(1,train)*timeStepS)/1000 > vt);
+        end;
+    end
+```
+
+- generate spikes for a particular input according to Poisson process : 포아송 공정에 따른 특정 입력에 대한 스파이크 생성.
+- 포아송 분포 : 확률론에서 단위 시간(정해진 시간) 안에 어떤 사건이 몇 번 발생할 것인지를 표현하는 이산 확률 분포이다. 
+- for train = 1:InNeurons : 1부터 인풋 뉴런 수만큼 반복
+- vt = rand(1,durationS/timeStepS) : 난수로 구성된 1*(durationS/timeStepS) 행렬을 대입
+- if x(i,train)>0 : 만약 행렬 x의 i행 train열의 원소 > 0 라면
+- spikes(train, :) = ((spikesPerS(1,train)*timeStepS)/1000 > vt) : spikes 행렬의 train 행에 대입한다. (1 or 0). ((spikesPerS 행렬의 1행 train열)*timeStepS / 1000) > vt. 
+
+
+```
+ % generate EPSP corresponding to spike train
+    for train = 1:InNeurons
+        for t = 1:durationS/timeStepS
+            if spikes(train,t) == 1
+                EPSP(train,t:t+tau_EPSP-1) = ones(1,tau_EPSP);
+            end;
+        end;
+    end;
+```
+
+-generate EPSP corresponding to spike train : 스파이크 트레이닝에 해당하는 EPSP 생성
+-  for train = 1:InNeurons : 1부터 InNeurons까지 반복
+-  for t = 1:durationS/timeStepS : 1부터 (durationS/timeStepS)까지 반복
+- if spikes(train,t) == 1 : 만약 spikes 행렬의 train행 t열이 1이라면
+- EPSP(train,t:t+tau_EPSP-1) = ones(1,tau_EPSP) : 1로 이루어진 1*tau_EPSP의 행렬을 EPSP행렬의 train행(차원)을 보고 두 번째 차원으로부터는 벡터 t:(t+tau_EPSP-1)의 요소를 참조한다. 이곳에 대입한다.
+
+
+
+
+
 
 
 # Reference
 - [rand 함수](https://kr.mathworks.com/help/matlab/ref/rand.html)
 - [size 함수](https://kr.mathworks.com/support/search.html?q=size&page=1)
 - [ones 함수](https://kr.mathworks.com/help/matlab/ref/ones.html)
+- [행렬에서 콜론(:)의 표현](https://kr.mathworks.com/help/matlab/ref/colon.html)
+- [포아송 분포(Poisson distribution)](https://ko.wikipedia.org/wiki/%ED%91%B8%EC%95%84%EC%86%A1_%EB%B6%84%ED%8F%AC)
