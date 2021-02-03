@@ -14,7 +14,7 @@
 필기 인식을 위한 스파이킹 뉴럴 네트워크. unsupervised learning 적용
 
 
-## cleat data
+## clear data
 
 ```
 %% clear data
