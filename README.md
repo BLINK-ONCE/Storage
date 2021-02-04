@@ -1,8 +1,8 @@
 # To-do
 
 ## weekly
-- [ ] Book deep learning 5.4 
-- [ ] Book machine learning
+- [x] Book deep learning 5.4 
+- [x] Book machine learning
 - [ ] MATLAB code
 
 
@@ -10,7 +10,7 @@
 
 ### Feb 2nd Tue
 - [x] weekly meeting
-- [ ] prepare presentation
+- [x] prepare presentation
 
 ### Feb 1st Mon
 - [x] Java study act
