@@ -1,12 +1,41 @@
 # To-do
 
 ## weekly
+
+- [ ] MATLAB code review
+- [ ] Book Deep learning 5.5
+- [ ] Book Deep learning 5.6
+- [ ] prepare presentation
+- [ ] Lab weekly meeting
+
+
+## daily
+
+Feb 6th Sat
+- [ ] study java
+
+Feb 5th Fri
+- [x] Java study 
+
+
+
+
+
+
+-----
+
+
+
+## weekly
 - [x] Book deep learning 5.4 
 - [x] Book machine learning
 - [ ] MATLAB code
 
 
 ## daily
+
+### Feb 3rd Wed
+- [x] presentation
 
 ### Feb 2nd Tue
 - [x] weekly meeting
