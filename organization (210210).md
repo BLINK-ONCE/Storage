@@ -4,7 +4,7 @@
 
 이러한 가장 일반적인 원칙은 최대우도원칙이다. 
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/aec109d5-27c4-4fd7-a4d7-b8b956eb58e6/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/aec109d5-27c4-4fd7-a4d7-b8b956eb58e6/Untitled.png)
+![5.56](C:\Users\USER\Desktop\git-repos\Storage\pics for organizations\organization (210210)\5.56.png)
 
 pdata(x) 분포를 생성하는 실제 데이터와는 독립적으로 그려진 일련의 예시 X = {x1, ... , xm}을 생각해 보자.
 
