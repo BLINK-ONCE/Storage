@@ -44,3 +44,15 @@ pm모델(x;α)을 α에 의해 지수화된 동일한 공간에 대한 확률분
 이 KL 차이를 최소화하는 것은 분포 간의 교차 엔트로피를 최소화하는 것과 정확히 일치한다. 많은 저자들이 베르누이 또는 소프트맥스 분포의 음의 로그 우도를 식별하기 위해 "크로스 엔트로피"라는 용어를 사용하지만, 그것은 잘못된 명칭이다. 음의 로그 우도로 구성된 모든 손실은 훈련 세트에 의해 정의된 경험적 분포와 모델에 의해 정의된 확률 분포 사이의 교차 엔트로피이다. 예를 들어, 평균 제곱 오차는 경험적 분포와 가우스 모형 사이의 교차 엔트로피이다.
 
 
+따라서 모델 분포를 경험적 분포 p² 데이터와 일치시키기 위한 시도로서 최대 가능성을 볼 수 있다. 이상적인 경우, 실제 데이터 생성 배포 데이터를 일치시키고 싶지만 이 배포에 직접 액세스할 수 없습니다.
+
+최적 α는 가능성을 최대화하거나 KL 분산을 최소화하는 것과 관계없이 동일하지만, 목표 함수의 값은 다르다. 소프트웨어에서, 우리는 종종 비용 함수를 최소화한다고 표현한다.
+
+따라서 최대 가능성은 음의 로그 우도(NLL)의 최소화 또는 이에 상응하는 교차 엔트로피의 최소화가 된다. 최소 KL 발산에서의 최대우도 관점은 KL 발산에서 알려진 최소값이 0이기 때문에 이 경우에 도움이 된다. x가 실제 값일 때 음의 로그 가능성은 실제로 음수가 될 수 있습니다.
+
+
+# Reference
+-[Maximum Likelihood Method](https://junha1125.tistory.com/24)
+-[Maximum Likelihood Estimation](https://seungtae-jeff.tistory.com/entry/%ED%86%B5%EA%B3%84%ED%95%99-1-%EC%B5%9C%EB%8C%80%EC%9A%B0%EB%8F%84%EC%B6%94%EC%A0%95%EB%B2%95)
+-Maximum Likelihood Estimation 2 공돌이의 수학정리노트](https://angeloyeo.github.io/2020/07/17/MLE.html)
+-[Maximum Likelihood Estimation 3 San-ho Lee](https://www.youtube.com/watch?v=sOtkPm_1GYw&ab_channel=SanghoLee)
