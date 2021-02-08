@@ -14,7 +14,7 @@ pm모델(x;α)을 α에 의해 지수화된 동일한 공간에 대한 확률분
 
 (5.56, 57)
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5267731b-cb2e-42d9-89ca-ddba73bb5f1d/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5267731b-cb2e-42d9-89ca-ddba73bb5f1d/Untitled.png)
+![5.58](./img/5_58.PNG)
 
 이것은 여러 가지 이유로 인해 불편할 수 있다. 예를 드르어, 수치적 언더플로우가 발생하기 쉽다. 보다 편리하지만 동등한 최적화 문제를 얻기 위해, 우린느 우도의 로그를 취하면 argmax가 변경되지 않고 이것을 다음과 같은 합으로 편리하게 변환하는 것을 볼 수 있다.
 
