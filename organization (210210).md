@@ -56,3 +56,7 @@ pm모델(x;α)을 α에 의해 지수화된 동일한 공간에 대한 확률분
 - [Maximum Likelihood Estimation](https://seungtae-jeff.tistory.com/entry/%ED%86%B5%EA%B3%84%ED%95%99-1-%EC%B5%9C%EB%8C%80%EC%9A%B0%EB%8F%84%EC%B6%94%EC%A0%95%EB%B2%95)
 - [Maximum Likelihood Estimation 2 공돌이의 수학정리노트](https://angeloyeo.github.io/2020/07/17/MLE.html)
 - [Maximum Likelihood Estimation 3 San-ho Lee](https://www.youtube.com/watch?v=sOtkPm_1GYw&ab_channel=SanghoLee)
+- [Introduction for Maximum Likelihood Estimation 공돌이의 수학정리 노트](https://www.youtube.com/watch?v=XhlfVtGb19c&feature=emb_title)
+- [cross entropy(교차 엔트로피)](https://hyunw.kim/blog/2017/10/26/Cross_Entropy.html)
+- [MLE, MAP](https://niceguy1575.tistory.com/entry/MLE-vs-MAP-Maximum-Likelihood-or-Maximum-a-Posteriori)
+- [KL발산, Kullback-Leibler divergence, KLD](https://ko.wikipedia.org/wiki/%EC%BF%A8%EB%B0%B1-%EB%9D%BC%EC%9D%B4%EB%B8%94%EB%9F%AC_%EB%B0%9C%EC%82%B0)
