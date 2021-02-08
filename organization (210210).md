@@ -52,7 +52,7 @@ pm모델(x;α)을 α에 의해 지수화된 동일한 공간에 대한 확률분
 
 
 # Reference
--[Maximum Likelihood Method](https://junha1125.tistory.com/24)
--[Maximum Likelihood Estimation](https://seungtae-jeff.tistory.com/entry/%ED%86%B5%EA%B3%84%ED%95%99-1-%EC%B5%9C%EB%8C%80%EC%9A%B0%EB%8F%84%EC%B6%94%EC%A0%95%EB%B2%95)
--Maximum Likelihood Estimation 2 공돌이의 수학정리노트](https://angeloyeo.github.io/2020/07/17/MLE.html)
--[Maximum Likelihood Estimation 3 San-ho Lee](https://www.youtube.com/watch?v=sOtkPm_1GYw&ab_channel=SanghoLee)
+- [Maximum Likelihood Method](https://junha1125.tistory.com/24)
+- [Maximum Likelihood Estimation](https://seungtae-jeff.tistory.com/entry/%ED%86%B5%EA%B3%84%ED%95%99-1-%EC%B5%9C%EB%8C%80%EC%9A%B0%EB%8F%84%EC%B6%94%EC%A0%95%EB%B2%95)
+- [Maximum Likelihood Estimation 2 공돌이의 수학정리노트](https://angeloyeo.github.io/2020/07/17/MLE.html)
+- [Maximum Likelihood Estimation 3 San-ho Lee](https://www.youtube.com/watch?v=sOtkPm_1GYw&ab_channel=SanghoLee)
