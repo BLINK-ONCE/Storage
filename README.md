@@ -6,7 +6,7 @@
 - [ ] Book Deep learning 5.5
 - [ ] Book Deep learning 5.6
 - [ ] prepare presentation
-- [ ] Lab weekly meeting
+- [x] Lab weekly meeting
 
 
 ## daily
