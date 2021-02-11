@@ -1,5 +1,22 @@
 # To-do
 
+
+## weekly
+- [ ] Book Deep learning 5.7
+- [ ] Book Deep learning 5.8
+- [ ] prepare presentation #5
+- [ ] prepare presentation #6
+
+
+##daily
+
+
+
+
+--------
+
+
+
 ## weekly
 
 - [ ] MATLAB code review
