@@ -3,8 +3,8 @@
 ## weekly
 
 - [ ] MATLAB code review
-- [ ] Book Deep learning 5.5
-- [ ] Book Deep learning 5.6
+- [x] Book Deep learning 5.5
+- [x] Book Deep learning 5.6
 - [ ] prepare presentation
 - [x] Lab weekly meeting
 
