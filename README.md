@@ -11,6 +11,9 @@
 ## daily
 
 
+### Feb 11th Thu
+- [x] study java
+
 
 
 --------
