@@ -10,6 +10,9 @@
 
 ## daily
 
+### Feb 14th Sun
+- [ ] study java
+
 
 ### Feb 11th Thu
 - [x] study java
