@@ -275,3 +275,4 @@ for i = 1:epochs %replace by epochs
 - [ones 함수](https://kr.mathworks.com/help/matlab/ref/ones.html)
 - [행렬에서 콜론(:)의 표현](https://kr.mathworks.com/help/matlab/ref/colon.html)
 - [포아송 분포(Poisson distribution)](https://ko.wikipedia.org/wiki/%ED%91%B8%EC%95%84%EC%86%A1_%EB%B6%84%ED%8F%AC)
+- [행렬 생성, 결합, 확장하기](https://kr.mathworks.com/help/matlab/math/creating-and-concatenating-matrices.html)
