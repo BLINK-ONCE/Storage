@@ -10,6 +10,8 @@
 - [ ] analysis of variance
 - [ ] F-distribution
 - [ ] poisson distribuiton
+- [ ] Gaussian distribution
+- [ ] Bernoulli distribution
 
 
 ## weekly
