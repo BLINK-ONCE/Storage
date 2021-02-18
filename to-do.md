@@ -1,5 +1,16 @@
 # To-do
 
+## no deadline
+- [ ] probablity mass function
+- [ ] probablity density function
+- [ ] regression analysis
+- [ ] multiple regression analysis
+- [ ] linear regression
+- [ ] correlation analysis
+- [ ] analysis of variance
+- [ ] F-distribution
+- [ ] poisson distribuiton
+
 
 ## weekly
 - [ ] Book Deep learning 5.7
@@ -11,7 +22,7 @@
 ## daily
 
 ### Feb 14th Sun
-- [ ] study java
+- [x] study java
 
 
 ### Feb 11th Thu
