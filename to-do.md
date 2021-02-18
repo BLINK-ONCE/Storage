@@ -12,6 +12,9 @@
 - [ ] poisson distribuiton
 - [ ] Gaussian distribution
 - [ ] Bernoulli distribution
+- [ ] data mining
+- [ ] least square method
+- [ ] loss function
 
 
 ## weekly
