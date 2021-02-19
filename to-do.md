@@ -26,6 +26,9 @@
 
 ## daily
 
+### Feb 19th Fri
+- [x] conference
+
 ### Feb 14th Sun
 - [x] study java
 
