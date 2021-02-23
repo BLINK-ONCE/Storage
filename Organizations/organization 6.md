@@ -91,7 +91,7 @@ x와 y축으로 이루어진 왼쪽 좌표를 먼저 보겠습니다. 빨간 포
 오른쪽 그래프에서 linear하게 그린 구분선은 왼쪽에서 원형으로 된 구분선과 동일합니다. 차원이 달라져서 구분선의 모양이 다른 것뿐입니다. x, y로만 이루어진 평면을 x, y, z 평면으로 차원 확대를 하니 구분선을 쉽게 그릴 수 있었습니다. 이렇듯 저차원 공간(low dimensional space)을 고차원 공간(high dimensional space)으로 매핑해주는 작업을 커널 트릭(Kernel Trick)이라고 합니다.
 
 ### C, Gamma
-일반적으로 가장 많이 사용되는 SVM은 radial basis unction(RBF) kernel을 사용한 SVM이다. RBF kernel SVM의 hyper parameters에는 C, gamma가 있다. 보통 trial and error 즉, grid search라는 경험적인 방법에 의해서 선택한다.
+일반적으로 가장 많이 사용되는 SVM은 radial basis function(RBF) kernel을 사용한 SVM이다. RBF kernel SVM의 hyper parameters에는 C, gamma가 있다. 보통 trial and error 즉, grid search라는 경험적인 방법에 의해서 선택한다.
 
 C가 크면 training point를 정확히 구분해준다. C가 작으면 smooth한 decision boundary를 그려준다.
 
