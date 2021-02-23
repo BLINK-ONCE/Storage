@@ -10,3 +10,4 @@
 - [PySNN 0.1.1 (BindsNET, cuSNN 라이브러리를 통해 만들어진 프레임워크)](https://pypi.org/project/pysnn/)
 - [PyTorchSpiking (pytorch 프레임워크에서 SNN을 바로 사용하게 해주는 tool)](https://pypi.org/project/pytorch-spiking/)
 - [PySNN by BasBuller. GPU acceleration](https://github.com/BasBuller/PySNN)
+- [SNN with PyTorch where backpropagation engenders STDP. guillaume-chevalier](https://github.com/guillaume-chevalier/Spiking-Neural-Network-SNN-with-PyTorch-where-Backpropagation-engenders-STDP)
