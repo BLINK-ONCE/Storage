@@ -18,9 +18,9 @@
 
 
 ## weekly
-- [ ] Book Deep learning 5.7
+- [x] Book Deep learning 5.7
 - [ ] Book Deep learning 5.8
-- [ ] prepare presentation #5
+- [x] prepare presentation #5
 - [ ] prepare presentation #6
 
 
