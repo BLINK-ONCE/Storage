@@ -22,6 +22,8 @@
 - [ ] Book Deep learning 5.8
 - [x] prepare presentation #5
 - [ ] prepare presentation #6
+- [ ] java study 1
+- [ ] java study 2 HW
 
 
 ## daily
