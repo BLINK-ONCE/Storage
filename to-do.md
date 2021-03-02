@@ -23,6 +23,7 @@
 - [ ] prepare presentation #7
 - [ ] java study 1 presentation
 - [ ] java study 1
+- [ ] data science HW
 
 
 
@@ -30,9 +31,8 @@
 
 ### Mar 2nd
 - [ ] codeit
-- [ ] time table
+- [x] time table
 - [ ] prepare presentation
-- [ ] python code
 
 
 
