@@ -16,14 +16,42 @@
 - [ ] least square method
 - [ ] loss function
 
+## weekly
+- [ ] Book Deep learning 5.8
+- [ ] Book Deep learining 5.9
+- [ ] prepare presentation #6
+- [ ] prepare presentation #7
+- [ ] java study 1 presentation
+- [ ] java study 1
+
+
+
+## daily
+
+### Mar 2nd
+- [ ] codeit
+- [ ] time table
+- [ ] prepare presentation
+- [ ] python code
+
+
+
+
+------------
+
+
+
+
+
+
+
+
 
 ## weekly
 - [x] Book Deep learning 5.7
-- [ ] Book Deep learning 5.8
 - [x] prepare presentation #5
-- [ ] prepare presentation #6
-- [] java study 1
-- [ ] java study 2 HW
+- [x] java study 1
+- [x] java study 2 HW
 
 
 ## daily
