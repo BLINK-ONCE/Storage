@@ -30,9 +30,9 @@
 ## daily
 
 ### Mar 2nd
-- [ ] codeit
+- [x] codeit
 - [x] time table
-- [ ] prepare presentation
+- [x] prepare presentation
 
 
 
