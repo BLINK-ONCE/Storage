@@ -17,13 +17,13 @@
 - [ ] loss function
 
 ## weekly
-- [ ] Book Deep learning 5.8
-- [ ] Book Deep learining 5.9
+- [x] Book Deep learning 5.8
+- [x] Book Deep learining 5.9
 - [ ] prepare presentation #6
 - [ ] prepare presentation #7
 - [ ] java study 1 presentation
 - [ ] java study 1
-- [ ] data science HW
+- [x] data science HW
 
 
 
