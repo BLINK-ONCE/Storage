@@ -21,8 +21,8 @@
 - [x] Book Deep learining 5.9
 - [ ] prepare presentation #6
 - [ ] prepare presentation #7
-- [ ] java study 1 presentation
-- [ ] java study 1
+- [x] java study 1 presentation
+- [x] java study 1
 - [x] data science HW
 
 
