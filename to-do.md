@@ -18,12 +18,16 @@
 
 ## weekly
 - [x] Book Deep learning 5.8
-- [x] Book Deep learining 5.9
-- [ ] prepare presentation #6
-- [ ] prepare presentation #7
+- [x] Book Deep learning 5.9
+- [ ] Book Deep learning 5.10
+- [x] prepare presentation #6
+- [x] prepare presentation #7
+- [ ] prepare presentation #8
 - [x] java study 1 presentation
 - [x] java study 1
-- [x] data science HW
+- [x] data science HW1
+- [ ] data science HW2
+- [ ] java HW1
 
 
 
