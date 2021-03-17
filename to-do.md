@@ -15,6 +15,7 @@
 - [ ] data mining
 - [ ] least square method
 - [ ] loss function
+- [ ] euclidean spcae
 
 
 ## weekly
