@@ -16,6 +16,26 @@
 - [ ] least square method
 - [ ] loss function
 
+
+## weekly
+- [ ] presentaion #9
+- [ ] java study2 HW
+- [ ] java study1 HW
+- [ ] data science HW3
+- [ ] web programing HW
+- [ ] linear algebra
+- [ ] digital engineering
+
+
+## daily
+
+
+
+
+
+
+-------
+
 ## weekly
 - [x] Book Deep learning 5.8
 - [x] Book Deep learning 5.9
@@ -26,7 +46,7 @@
 - [x] java study 1 presentation
 - [x] java study 1
 - [x] data science HW1
-- [ ] data science HW2
+- [x] data science HW2
 - [x] java HW1
 
 
