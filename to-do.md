@@ -25,6 +25,7 @@
 - [ ] web programing HW
 - [ ] linear algebra
 - [ ] digital engineering
+- [ ] coding study
 
 
 ## daily
