@@ -19,7 +19,7 @@
 
 
 ## weekly
-- [ ] presentaion #9
+- [x] presentaion #9
 - [ ] java study2 HW
 - [ ] java study1 HW
 - [ ] data science HW3
