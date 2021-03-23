@@ -23,10 +23,9 @@
 - [ ] java study2 HW
 - [ ] java study1 HW
 - [ ] data science HW3
-- [ ] web programing HW
+- [x] web programing HW
 - [ ] linear algebra
 - [ ] digital engineering
-- [ ] coding study
 
 
 ## daily
