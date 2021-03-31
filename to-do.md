@@ -16,6 +16,7 @@
 - [ ] least square method
 - [ ] loss function
 - [ ] euclidean spcae
+- [ ] affine transformation
 
 
 ## weekly
