@@ -8,3 +8,6 @@
 
 ## 5.11 Challenges Motivating Deep Learning
 - [manifold learning](https://m.blog.naver.com/kbsdr11/221595813033)
+
+## 6 Feed forward learning
+- [딥러닝](https://www.youtube.com/watch?v=WstuEsvJJLA&t=17s)
