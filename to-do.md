@@ -20,11 +20,11 @@
 
 ## weekly
 - [x] presentaion #9
-- [ ] java study2 HW
+- [x] java study2 HW
 - [ ] java study1 HW
-- [ ] data science HW3
+- [x] data science HW3
 - [x] web programing HW
-- [ ] linear algebra
+- [x] linear algebra
 - [ ] digital engineering
 
 
