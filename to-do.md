@@ -21,10 +21,10 @@
 
 
 ## weekly
-- [ ] digital engineering
+- [x] digital engineering
 - [ ] java study2 HW
-- [ ] java study1 HW
-- [ ] data science HW
+- [x] java study1 HW
+- [x] data science HW
 
 
 
