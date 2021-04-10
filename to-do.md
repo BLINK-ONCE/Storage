@@ -20,9 +20,21 @@
 
 
 
+
+## weekly
+- [ ] digital engineering HW
+- [ ] linear algebra HW
+
+
+## daily
+
+
+
+----------------
+
 ## weekly
 - [x] digital engineering
-- [ ] java study2 HW
+- [x] java study2 HW
 - [x] java study1 HW
 - [x] data science HW
 
