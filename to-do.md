@@ -24,6 +24,7 @@
 ## weekly
 - [ ] digital engineering HW
 - [ ] linear algebra HW
+- [ ] java study2 HW refactoring
 
 
 ## daily
