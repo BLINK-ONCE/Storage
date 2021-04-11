@@ -19,6 +19,34 @@
 - [ ] affine transformation
 
 
+
+
+## weekly
+- [ ] digital engineering HW
+- [ ] linear algebra HW
+- [ ] java study2 HW refactoring
+
+
+## daily
+
+
+
+----------------
+
+## weekly
+- [x] digital engineering
+- [x] java study2 HW
+- [x] java study1 HW
+- [x] data science HW
+
+
+
+## daily
+
+
+
+----------------
+
 ## weekly
 - [x] presentaion #9
 - [x] java study2 HW
@@ -26,7 +54,6 @@
 - [x] data science HW3
 - [x] web programing HW
 - [x] linear algebra
-- [ ] digital engineering
 
 
 ## daily
