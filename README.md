@@ -15,3 +15,6 @@
 
 ## 6 Feed forward learning
 - [딥러닝](https://www.youtube.com/watch?v=WstuEsvJJLA&t=17s)
+
+## 6.2 gradient based learning. 
+- [output units. logit, sigmoid, softmax](https://opentutorials.org/module/3653/22995)
