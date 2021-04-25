@@ -20,6 +20,18 @@
 
 
 
+## weekly
+- [ ] java study2 HW refactoring
+- [ ] java study1 HW refactoring
+
+
+## daily
+
+
+
+----------------
+
+
 
 ## weekly
 - [x] digital engineering HW3
