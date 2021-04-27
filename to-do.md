@@ -17,6 +17,9 @@
 - [ ] loss function
 - [ ] euclidean spcae
 - [ ] affine transformation
+- [ ] backward
+- [ ] back propagation
+- [ ] weight update
 
 
 
