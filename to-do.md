@@ -16,7 +16,7 @@
 - [ ] least square method
 - [ ] loss function
 - [ ] euclidean spcae
-- [ ] affine transformation
+- [x] affine transformation
 - [ ] backward
 - [ ] back propagation
 - [ ] weight update
