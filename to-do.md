@@ -26,6 +26,8 @@
 ## weekly
 - [ ] java study2 HW refactoring
 - [ ] java study1 HW refactoring
+- [ ] web programing HW
+- [ ] digital engineering HW
 
 
 ## daily
