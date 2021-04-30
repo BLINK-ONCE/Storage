@@ -9,6 +9,7 @@
 - [선형대수. 전치행렬. transposed matrix. T. wTx+b에서 T](https://blog.naver.com/mykepzzang/220990350484)
 - [정규화. normalization. 최소 최대. min-max normalization. z점수. z-score normalization](http://hleecaster.com/ml-normalization-concept/)
 - [pytorch. autograd 설명. 티스토리](https://deepinsight.tistory.com/84)
+- [모두를 위한 cs231n](https://deepinsight.tistory.com/tag/%EB%AA%A8%EB%91%90%EB%A5%BC%20%EC%9C%84%ED%95%9C%20cs231n)
 
 
 ## 5.11 Challenges Motivating Deep Learning
