@@ -8,6 +8,7 @@
 - [Convolution. 합성곱](https://ko.wikipedia.org/wiki/%ED%95%A9%EC%84%B1%EA%B3%B1)
 - [선형대수. 전치행렬. transposed matrix. T. wTx+b에서 T](https://blog.naver.com/mykepzzang/220990350484)
 - [정규화. normalization. 최소 최대. min-max normalization. z점수. z-score normalization](http://hleecaster.com/ml-normalization-concept/)
+- [pytorch. autograd 설명. 티스토리](https://deepinsight.tistory.com/84)
 
 
 ## 5.11 Challenges Motivating Deep Learning
