@@ -16,15 +16,33 @@
 - [ ] least square method
 - [ ] loss function
 - [ ] euclidean spcae
-- [ ] affine transformation
-
+- [x] affine transformation
+- [ ] backward
+- [ ] back propagation
+- [ ] weight update
 
 
 
 ## weekly
-- [ ] digital engineering HW
-- [ ] linear algebra HW
 - [ ] java study2 HW refactoring
+- [ ] java study1 HW refactoring
+- [ ] web programing HW
+- [ ] digital engineering HW
+
+
+## daily
+
+
+
+----------------
+
+
+
+## weekly
+- [x] digital engineering HW3
+- [x] linear algebra HW
+- [ ] java study2 HW refactoring
+- [ ] java study1 HW refactoring
 
 
 ## daily
