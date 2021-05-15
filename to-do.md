@@ -38,7 +38,9 @@
 
 
 ### 13th May Thu
-- [ ] Lab presentaion
+- [x] Lab presentaion
+
+### 16th May Sun
 - [ ] digital engineering HW assignment 2
 
 ###  17th May Mon
