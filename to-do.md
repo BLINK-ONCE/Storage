@@ -34,7 +34,7 @@
 ## daily
 
 ### 12th May Wed
-- [ ] prepare presentation
+- [x] prepare presentation
 
 
 ### 13th May Thu
