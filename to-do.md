@@ -28,7 +28,6 @@
 - [X] java study1 HW refactoring
 - [X] digital engineering HW assignment 2
 - [ ] presentation
-- [ ] data science midterm
 
 
 ## daily
@@ -43,14 +42,9 @@
 ### 16th May Sun
 - [X] digital engineering HW assignment 2
 
-###  17th May Mon
-- [ ] prepare data science midterm
-
-### 18th May Tue
-- [ ] data science midterm
-
 ### 19th May Wed
 - [ ] prepare presentation
+- [ ] java study 2 HW
 
 ### 20th May Thu
 - [ ] presentation
