@@ -22,12 +22,22 @@
 - [ ] weight update
 
 
+## weekly
+- [ ] java study2 HW refactoring
+
+## daily
+
+
+
+----------------
+
+
 
 ## weekly
-- [ ] java study2 HW
+- [x] java study2 HW
 - [X] java study1 HW refactoring
 - [X] digital engineering HW assignment 2
-- [ ] presentation
+- [x] presentation
 
 
 ## daily
@@ -43,11 +53,11 @@
 - [X] digital engineering HW assignment 2
 
 ### 19th May Wed
-- [ ] prepare presentation
-- [ ] java study 2 HW
+- [x] prepare presentation
+- [x] java study 2 HW
 
 ### 20th May Thu
-- [ ] presentation
+- [x] presentation
 
 ----------------
 
