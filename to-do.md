@@ -20,7 +20,7 @@
 - [ ] backward
 - [ ] back propagation
 - [ ] weight update
-
+  
 
 ## weekly
 - [ ] java study2 HW refactoring
