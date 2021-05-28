@@ -27,6 +27,8 @@
 
 ## daily
 
+### 28th May Fri
+- [ ] java assignment
 
 
 ----------------
