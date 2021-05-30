@@ -20,3 +20,6 @@
 - [ ] backward
 - [ ] back propagation
 - [ ] weight update
+
+
+
