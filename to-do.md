@@ -21,5 +21,3 @@
 - [ ] back propagation
 - [ ] weight update
 
-
-
