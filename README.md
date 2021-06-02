@@ -10,6 +10,7 @@
 - [정규화. normalization. 최소 최대. min-max normalization. z점수. z-score normalization](http://hleecaster.com/ml-normalization-concept/)
 - [pytorch. autograd 설명. 티스토리](https://deepinsight.tistory.com/84)
 - [모두를 위한 cs231n](https://deepinsight.tistory.com/tag/%EB%AA%A8%EB%91%90%EB%A5%BC%20%EC%9C%84%ED%95%9C%20cs231n)
+- [vector in euclidean space. 다차원 유클리드 공간에서의 벡터](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=dydrogud22&logNo=220945365269)
 
 
 ## 5.11 Challenges Motivating Deep Learning
