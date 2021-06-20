@@ -20,3 +20,10 @@
 - [ ] backward
 - [ ] back propagation
 - [ ] weight update
+
+## weekly
+
+
+## daily
+### Mon 21st Jun
+- [ ] seasonal attendance
