@@ -26,4 +26,8 @@
 
 ## daily
 ### Mon 21st Jun
+- [x] seasonal attendance
+
+### Tue 22nd Jun
 - [ ] seasonal attendance
+- [ ] 
