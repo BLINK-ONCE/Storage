@@ -30,4 +30,3 @@
 
 ### Tue 22nd Jun
 - [ ] seasonal attendance
-- [ ] 
