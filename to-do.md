@@ -1,7 +1,7 @@
 # To-do
 
 ## no deadline
-- [ ] probablity mass function
+- [x] probablity mass function
 - [ ] probablity density function
 - [ ] regression analysis
 - [ ] multiple regression analysis
