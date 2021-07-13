@@ -174,8 +174,8 @@ for i = 1:epochs %replace by epochs% 1000회 for문 돌림
                 z(j, t+1) = 1;
                 t_post(j) = t+1;
                 K(j) = K(j) + del_K*K(j);
-                if K(j) > Kf% 500000000 보다 클 경우
-                    K(j) = Kf; % 500000000
+                if K(j) > Kf
+                    K(j) = Kf;
                 end;
                 
                 for k = 1:InNeurons
@@ -184,11 +184,10 @@ for i = 1:epochs %replace by epochs% 1000회 for문 돌림
                            %else
                                 %weights_e(k,j) = weights_e(k,j) - eta2/10;
                            %end;
-                    % 
-                    if weights_e(k,j) > 1
-                        weights_e(k,j) = 1;
-                    elseif weights_e(k,j) < 0
-                        weights_e(k,j) = 0;
+                    if weights_e(k,j)>1
+                        weights_e(k,j)=1;
+                    elseif weights_e(k,j)<0
+                        weights_e(k,j)=0;
                     end;
                 end;
                 
@@ -199,7 +198,6 @@ for i = 1:epochs %replace by epochs% 1000회 for문 돌림
                 K(j) = Ki;
             end;
         end;
-        
         i_max(i,t+1) = max(i_curr(:,t+1));
         prob_MTJ(i,t+1) = max(prob(:,t+1));
     end;
